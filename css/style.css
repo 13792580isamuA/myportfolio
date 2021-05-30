@@ -1,0 +1,486 @@
+@charset "UTF-8";
+
+body {
+    font-size: 62.5%;
+    font-family: 'HGP明朝E' ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ヘッダー */
+header {
+    background-image: url('../images/joel-filipe-ZMRMFULofus-unsplash.jpg');
+    /* width: 100%; */
+    height: 750px;
+    background-size: cover;
+    border-bottom: 1px solid ;
+}
+
+.header-left {
+    background-image: url('../images/header_logo.png');
+    background-size: cover;
+    float: left;
+    width: 230px;
+    height: 100px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right ul {
+    /* line-height: 100px; */
+    margin-top: 50px;
+}
+
+.header-right li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 45px;
+    font-size: 1.3rem;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.header-right li:hover {
+    opacity: 1;
+}
+
+.header-right li a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+.header-all {
+    padding-top: 20px;
+    height: 100px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.header-content {
+    font-weight: normal;
+    font-size: 3.0rem;
+    letter-spacing: 7px;
+    display: block;
+    text-align: center;
+    margin-top:330px;
+
+    /* position: absolute;
+    top: 340px;
+    left: 700px; */
+}
+
+/* .header-center {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+/* お知らせ */
+.heading {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+}
+
+.message-list {
+    font-size: 0;
+    width: 700px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.message-list .date {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.message-list .message-icon {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 7px 15px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+.message-list .text {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.message-item {
+    padding: 0;
+}
+
+.message-item a {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.message-item a:hover {
+    opacity: 0.6;
+}
+
+.message {
+    padding-bottom: 60px;
+    display: block;
+}
+
+/* 施工事例 */
+.main-wrapper {
+    display: flex;
+}
+
+.top {
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.second {
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.top .top-img {
+    width: 430px;
+    height: 280px;
+}
+
+.second .second-img {
+    width: 430px;
+    height: 280px;
+}
+
+.top-sub {
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.second-sub {
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.top-text {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.second-text {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.top-third {
+    width: 300px;
+    height: 47px;
+    transition: 0.3s;
+}
+
+.second-third {
+    width: 300px;
+    height: 47px;
+    transition: 0.3s;
+}
+
+.top-third:hover {
+    opacity: 0.6;
+}
+
+.second-third:hover {
+    opacity: 0.6;
+}
+
+.top-end {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.top-btn {
+    margin-top: 90px;
+    margin-bottom: 200px;
+    text-align: center;
+    transition: opacity 0.3s;
+}
+
+.top-btn:hover {
+    opacity: 0.7;
+}
+
+/* メイン下概要 */
+.main-end {
+    display: flex;
+}
+
+.end-first {
+    display: block;
+    width: calc(100%/3);
+    transition: 0.3s;
+}
+.end-second {
+    display: block;
+    width: calc(100%/3);
+    transition: 0.3s;
+}
+.end-third {
+    display: block;
+    width: calc(100%/3);
+    transition: 0.3s;
+}
+
+.end-first img {
+    width: 100%;
+}
+.end-second img {
+    width: 100%;
+}
+.end-third img {
+    width: 100%;
+}
+
+.end-first:hover {
+    opacity: 0.5;
+}
+.end-second:hover {
+    opacity: 0.5;
+}
+.end-third:hover {
+    opacity: 0.5;
+}
+
+/* フッター */
+footer {
+    background-color: black;
+    /* height: 240px; */
+}
+
+.end {
+    height: 180px;
+    padding-top: 20px;
+    color: white;
+}
+
+.end-left {
+    float: left;
+}
+
+.end-right {
+    float: right;
+    /* height: 78px; */
+    line-height: 78px;
+    margin: 0;
+    padding: 0;
+}
+
+.end-list {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.end-list + .end-list {
+    margin-left: 60px;
+}
+
+.end-left img {
+    display: block;
+}
+
+.end-right ul {
+    margin: 0;
+}
+
+.end-right a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.end-right a:hover {
+    opacity: 0.7;
+}
+
+.end-footer {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.end-footer a {
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.end-footer a:hover {
+    opacity: 0.7;
+}
+
+/* 画面サイズ1200px以下の場合 */
+@media (max-width: 1200px) {
+
+/* .body {
+    margin: 0 auto;
+} */
+/* .container {
+    max-width: 1200px;
+} */
+
+    .header-all {
+        height: 50px;
+        margin: 0 auto;
+    }
+    .header-content {
+        margin-top: 330px;
+    }
+    .header-left {
+        width: 115px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .header-right {
+        height: 50px;
+    }
+
+    .header-right ul {
+        margin: 0px;
+        line-height: 70px;
+    }
+    .header-content {
+        text-align: center;
+    }
+    .header-right li {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .header-right li {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .header-right li a {
+        line-height: 35px;
+    }
+
+    .header-content {
+        font-size: 2rem;
+        margin-top: 220px;
+    }
+    header {
+        height: 500px;
+    } 
+
+    .main-wrapper {
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    .top {
+        /* width: 50%; */
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .second {
+        /* width: 50%; */
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .top-text {
+        text-align: center;
+    }
+    .top-sub {
+        text-align: center;
+    }
+    .top-third {
+        text-align: center;
+    }
+    .top-img {
+        display: block;
+        margin: 0 auto;
+    }
+    .second-img {
+        display: block;
+        margin: 0 auto;
+    }
+    .top-third {
+        display: block;
+        margin: 0 auto;
+    }
+    .second-third {
+        display: block;
+        margin: 0 auto;
+    }
+    .main-end {
+        display: block;
+    }
+    .end-first {
+        display: block;
+        width: 100%;
+    }
+    .end-second {
+        display: block;
+        width: 100%;
+    }
+    .end-third {
+        display: block;
+        width: 100%;
+    }
+    .end-list {
+        display: block;
+        font-size: 0.8rem;
+        line-height: 30px;
+    }
+    .end-list + .end-list {
+        margin-left: 0;
+    }
+    footer {
+        height: 240px;
+    }
+    .message {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .end-main {
+        margin: 0 20px 0 20px;
+    }
+}
